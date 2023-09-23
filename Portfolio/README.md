@@ -3,7 +3,14 @@
 #### Screenshots:
 
 ##### Index
-![image](https://user-images.githubusercontent.com/98410077/229744693-bc162d76-de8a-414f-bf5b-7eda797ad9dc.png)
+![image](https://github.com/akashasmaul/ADVANCED-PROGRAMMING-WITH-Dot-NET/assets/98410077/e593e496-106f-46e3-a3bc-4edbd26e86c8)
 
-##### Calendar Page 
-![image](https://user-images.githubusercontent.com/98410077/229745018-bb2597dc-1a02-47e8-a1ba-2e03dac2ef12.png)
+
+##### Education Page 
+![image](https://github.com/akashasmaul/ADVANCED-PROGRAMMING-WITH-Dot-NET/assets/98410077/4895e20c-858e-48dd-86b9-bd9c2898d989)
+
+##### Projects Page 
+![image](https://github.com/akashasmaul/ADVANCED-PROGRAMMING-WITH-Dot-NET/assets/98410077/58877786-9a89-4e7d-95f6-f2d13e19d9f5)
+
+##### About Me Page
+![image](https://github.com/akashasmaul/ADVANCED-PROGRAMMING-WITH-Dot-NET/assets/98410077/dd17cd3b-02f0-408a-9fc5-b238bf55a2b3)

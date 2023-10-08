@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Team";
+}
+
+
+
+@{
+    string[] teamMembers = ViewBag.TeamMembers as string[];
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Your HTML head content here -->
+</head>
+<body>
+    <h2>Team Members</h2>
+    <ul>
+        @foreach (var member in teamMembers)
+        {
+            <li>@member</li>
+        }
+    </ul>
+</body>
+</html>

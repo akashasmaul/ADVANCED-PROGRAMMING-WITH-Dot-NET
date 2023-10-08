@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+}
+
+<h2>Company Projects</h2>
+
+@{
+    var projects = ViewBag.Projects as Dictionary<string, string>;
+}
+
+<!DOCTYPE html>
+<html>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #000; /* Black border */
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+<head>
+    <!-- Your HTML head content here -->
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th>Project Name</th>
+            <th>Client Name</th>
+        </tr>
+        @foreach (var project in projects)
+        {
+            <tr>
+                <td>@project.Key</td>
+                <td>@project.Value</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
+

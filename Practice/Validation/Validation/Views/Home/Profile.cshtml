@@ -1,0 +1,56 @@
+﻿
+<h2>Profile</h2>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head content... -->
+</head>
+<body>
+    <div class="container">
+        @if (!string.IsNullOrEmpty(Model.Name))
+        {
+            <h2>User Profile</h2>
+            if (!string.IsNullOrEmpty(Model.Name))
+            {
+                <p><strong>Name:</strong> @Model.Name</p>
+            }
+            if (!string.IsNullOrEmpty(Model.Email))
+            {
+                <p><strong>Email:</strong> @Model.Email</p>
+            }
+            if (!string.IsNullOrEmpty(Model.Phone))
+            {
+                <p><strong>Phone:</strong> @Model.Phone</p>
+            }
+            if (!string.IsNullOrEmpty(Model.Gender))
+            {
+                <p><strong>Gender:</strong> @Model.Gender</p>
+            }
+            if (!string.IsNullOrEmpty(Model.Profession))
+            {
+                <p><strong>Profession:</strong> @Model.Profession</p>
+            }
+            if (Model.Skills != null && Model.Skills.Count > 0)
+            {
+                <div>
+                    <p><strong>Skills:</strong></p>
+                    <ul>
+                        @foreach (var skill in Model.Skills)
+                        {
+                            <li>@skill</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+        }
+        else
+        {
+            <h2>No User Found</h2>
+        }
+    </div>
+</body>
+</html>

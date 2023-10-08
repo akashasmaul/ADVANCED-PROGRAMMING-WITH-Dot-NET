@@ -1,1 +1,0 @@
-# Lab Task 1 - 8 October 2023

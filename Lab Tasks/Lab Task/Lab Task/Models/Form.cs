@@ -76,7 +76,7 @@ namespace Lab_Task.Models
         }
     }
 
-  
+
     public class Form
     {
         [Required(ErrorMessage = "Provide your name")]
@@ -98,7 +98,7 @@ namespace Lab_Task.Models
         [CustomPasswordValidation(ErrorMessage = "Invalid Password")]
         public string Password { get; set; }
 
-        
+
         [Required(ErrorMessage = "Provide your Date of Birth")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -126,16 +126,30 @@ namespace Lab_Task.Models
 
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
+            if (value == null)
+            {
+                return new ValidationResult("Value cannot be null");
+            }
+
             var currentValue = value as string;
             var property = validationContext.ObjectType.GetProperty(comparisonProperty);
 
             if (property == null)
+            {
                 throw new ArgumentException("Property with this name not found");
+            }
 
             var comparisonValue = property.GetValue(validationContext.ObjectInstance) as string;
 
+            if (comparisonValue == null)
+            {
+                return new ValidationResult("Comparison value cannot be null");
+            }
+
             if (currentValue.Split('@')[0] != comparisonValue)
+            {
                 return new ValidationResult(ErrorMessage);
+            }
 
             return ValidationResult.Success;
         }

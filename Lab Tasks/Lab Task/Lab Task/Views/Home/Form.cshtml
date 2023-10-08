@@ -1,0 +1,70 @@
+﻿
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <!-- Include Bootstrap CSS from CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" value="@(Model==null ? "":Model.Name)" name="Name" placeholder="Enter your name">
+                <span class="text-danger">@Html.ValidationMessage("Name")</span>
+            </div>
+
+            <div class="form-group">
+                <label for="UserId">User Id:</label>
+                <input type="text" class="form-control" value="@(Model==null ? "":Model.UserId)" name="UserId" placeholder="Enter your User Id">
+                <span class="text-danger">@Html.ValidationMessage("UserId")</span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" value="@(Model==null ? "":"")" name="Password" placeholder="Enter your password" data-toggle="tooltip"
+                       data-placement="top" title="Password should be at least 8 characters long and first 4 must be alphabet of at least 1 upper and 2 lower, next 4 must be combination of special characters and numbers">
+                <span class="text-danger">@Html.ValidationMessage("Password")</span>
+            </div>
+
+            <div class="form-group">
+                <label for="Id">Student Id:</label>
+                <input type="text" class="form-control" value="@(Model==null ? "":Model.Id)" name="Id" placeholder="Enter your Student Id">
+                <span class="text-danger">@Html.ValidationMessage("Id")</span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" value="@(Model==null ? "":Model.Email)" name="Email" placeholder="Enter your email address">
+                <span class="text-danger">@Html.ValidationMessage("Email")</span>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" class="form-control" value="@(Model == null || Model.DateOfBirth == DateTime.MinValue ? "" : Model.DateOfBirth.ToString("yyyy-MM-dd"))" name="DateOfBirth" placeholder="Enter your date of birth">
+                <span class="text-danger">@Html.ValidationMessage("DateOfBirth")</span>
+            </div>
+
+
+            <br /> <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </div>
+
+    <!-- Include Popper.js and Bootstrap JS from CDNs -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

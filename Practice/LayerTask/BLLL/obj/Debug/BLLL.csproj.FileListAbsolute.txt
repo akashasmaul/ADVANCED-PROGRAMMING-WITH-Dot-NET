@@ -1,0 +1,17 @@
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\BLLL.dll.config
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\BLLL.dll
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\BLLL.pdb
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\AutoMapper.dll
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\DAL.dll
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\EntityFramework.dll
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\DAL.pdb
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\DAL.dll.config
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\AutoMapper.xml
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\EntityFramework.xml
+C:\Users\ak4as\source\repos\LayerTask\BLLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ak4as\source\repos\LayerTask\BLLL\obj\Debug\BLLL.csproj.AssemblyReference.cache
+C:\Users\ak4as\source\repos\LayerTask\BLLL\obj\Debug\BLLL.csproj.CoreCompileInputs.cache
+C:\Users\ak4as\source\repos\LayerTask\BLLL\obj\Debug\BLLL.csproj.CopyComplete
+C:\Users\ak4as\source\repos\LayerTask\BLLL\obj\Debug\BLLL.dll
+C:\Users\ak4as\source\repos\LayerTask\BLLL\obj\Debug\BLLL.pdb

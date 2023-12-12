@@ -1,0 +1,14 @@
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\DAL.dll.config
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\DAL.dll
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\DAL.pdb
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\AutoMapper.dll
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\AutoMapper.xml
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ak4as\source\repos\LayerTask\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ak4as\source\repos\LayerTask\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ak4as\source\repos\LayerTask\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ak4as\source\repos\LayerTask\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ak4as\source\repos\LayerTask\DAL\obj\Debug\DAL.dll
+C:\Users\ak4as\source\repos\LayerTask\DAL\obj\Debug\DAL.pdb
